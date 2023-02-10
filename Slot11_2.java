@@ -1,12 +1,21 @@
 import java.io.*;
 
-public class Slot11_2 {
+class Slot11_2 {
     public static void main(String args[]) {
-        int a[]={1,2,3,4,5,6};
-        float b[]={2.5F,3.3F,4.2F,5.6F,6.4F,7.3F};
-        String c[]={"Ashiq","Ashin","Abhay","Aromal","Arjun","Gokul"};
+        int[] a={1,2};
+        prin(a);
+        // in.prin(b);
+        // in.prin(c);
+
     }
-    public static <Generic> void printa(Generic[] a){
-        for()
+    static <Gen> void prin(Gen[] a){
+        for(int i=0;i<2;i++){
+            System.out.println(a[i]);
+        }
+        
     }
+    
 }
+
+    
+    
