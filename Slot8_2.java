@@ -10,6 +10,9 @@ public class Slot8_2 {
             if(prnum==2){
                 throw new ArithmeticException("You have entered a prime number");
             }
+            else{
+                System.out.print("Entered number is not prime.");
+            }
         }
         catch(IOException e){
             System.out.println(e);
